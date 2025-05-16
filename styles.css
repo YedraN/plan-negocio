@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  line-height: 1.6;
+  background: #121212; /* Fondo oscuro */
+  color: #e0e0e0; /* Texto claro */
+}
+
+h1 {
+  text-align: center;
+  color: #bb86fc; /* Morado suave */
+}
+
+pre, code {
+  background-color: #2d2d2d; /* Fondo oscuro para código */
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #f8f8f2; /* Texto claro para código */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #444; /* Bordes más oscuros */
+  padding: 8px;
+  color: #ccc; /* Texto claro en tablas */
+}
+
+th {
+  background: #333; /* Fondo oscuro para encabezados de tabla */
+}
+
+/* DIV */
+.div {
+  display: flex;
+  justify-content: center;
+}
+
+#markdown-content {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  #markdown-content {
+    width: 100%;
+  }
+}
